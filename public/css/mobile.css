@@ -1,0 +1,153 @@
+/* ==========================================================================
+	(9) Media Queries
+========================================================================== */
+
+@media (max-width: 1300px) {
+
+	body {
+		padding: 0 20px;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+}
+
+@media (max-width: 1150px) {
+
+	.topic-panels li {
+		min-height:300px
+	}
+
+}
+
+@media (max-width: 960px) {
+
+	.col-75 {
+		width: 100%;
+	}
+
+	.search-results-nav li:first-child, body#tech .search-results-nav li:first-child {
+		width: 100%;
+	}
+
+	.search-results-nav li, body#tech .search-results-nav li {
+		width: 25%;
+	}
+
+	.topic-panels li {
+		width:48%;
+		margin:1%;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.logo-wrap {
+		padding: 30px 0;
+		margin-bottom: 30px;
+	}
+
+	.open-net-logo {
+		width: 250px;
+	}
+
+	.main-search {
+		margin: 50px auto;
+	}
+
+	.sub-search {
+		width: 100%;
+		float: left;
+	}
+
+	.search-results {
+		margin-top: 0;
+	}
+
+	.col-75, .col-70, .col-25, .side-panel {
+		width: 100%;
+	}
+
+	.side-panel {
+	margin-bottom:30px;}
+
+}
+
+@media (max-width: 700px) {
+
+	.search-results-nav li,body#tech .search-results-nav li {
+		width: 100%;
+	}
+
+	a.contact_info {
+		display: block;
+		width: 100%;
+		margin-top:30px;
+	}
+
+	input.feature-search-input {
+		width: 80%;
+	}
+
+	button.feature-search-input-submit {
+		width: 20%;
+	}
+
+	.all_body {
+		border-left:5px solid #2e3191;
+	}
+
+	.people_body {
+		border-left:5px solid #1a2a4f;
+	}
+
+	.research_body {
+		border-left:5px solid #bba461;
+	}
+
+	.resources_body {
+		border-left:5px solid #4a4f49;
+	}
+
+	.tech_body {
+		border-left:5px solid #b2b2b2;
+	}
+
+	.contact li {
+		width: 100%;
+		text-align: left;
+		float: left!important;
+		margin-top: 0!important;
+		margin-bottom: 10px!important;
+	}
+
+	#login .inner {
+		width: 100%!important;
+	}
+
+
+}
+
+@media (max-width: 568px) {
+
+	.main-search {
+		width:100%;
+	}
+
+	.topic-panels li {
+		width:100%;
+		margin:0 0 20px 0;
+		height:auto;
+		min-height:initial;
+	}
+
+	.search-results-nav li,body#tech .search-results-nav li {
+		width: 100%;
+	}
+
+	.search-results-nav li a {
+		padding: 10px 0px 10px;
+	}
+
+}
